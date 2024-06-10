@@ -28,6 +28,8 @@
 	<script>
 		function submitForm(form) {
 			window.open("mailto:parasy787898@gmail.com?subject=Mail%20From%20Website&body=Name:%20" + form.name.value + "%20%20%20Email:%20" + form.email.value+"%20%20%20Subject:%20"+form.subject.value+ "%20%20%20Message:%20" +form.message.value  );
+			form.reset();
+			location.reload();
 			return false; /* cancel submit or else page reloads */
 		}
 	</script>
@@ -181,30 +183,28 @@
 										
 										<li>
 											<strong>Name:</strong>
-											<span>John Doe</span>
-										</li>
-										
-										<li>
-											<strong>Job:</strong>
-											<span>Freelancer</span>
+											<span>Paras Yadav</span>
 										</li>
 										
 										<li>
 											<strong>Age:</strong>
-											<span>26 Years</span>
+											<span>24 Years</span>
 										</li>
 										
 										<li>
-											<strong>Residence:</strong>
-											<span>United States</span>
+											<strong>Current Location:</strong>
+											<span>Rewari, Haryana</span>
 										</li>
 										
 										<li>
 											<strong>Hometown:</strong>
-											<span>Dokri</span>
+											<span>Rewari, Haryana</span>
 										</li>
-										
-										
+										<li>
+											<strong>Phone no.</strong>
+											<span>(+91) 9306271325</span>
+										</li>
+
 										
 									</ul>
 									
@@ -225,12 +225,12 @@
 									
 									<div class='about-btns' >
 										
-										<a href='#' class='btn-custom btn-color' >
-											Download Resume
+										<a href='#resume' class='btn-custom btn-color section-toggle' data-section='resume' >
+											Resume
 										</a>
 										
-										<a href='#' class='btn-custom btn-color' >
-											Hire Me
+										<a href='#contact' class='btn-custom btn-color section-toggle' data-section='contact'>
+											Contact Me
 										</a>
 										
 									</div>
@@ -260,12 +260,12 @@
 									<div class='service' >
 										
 										<div class='icon' >
-											<i class='icon-basic-photo' ></i>
+											<i class='ion-ios-cloud-outline' ></i>
 										</div>
 										
 										<div class='content' >
 											
-											<h4>Photography</h4>
+											<h4>Salesforce</h4>
 											
 											<p>
 												Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum.
@@ -280,12 +280,12 @@
 									<div class='service' >
 										
 										<div class='icon' >
-											<i class='icon-basic-keyboard' ></i>
+											<i class='ion-android-globe' ></i>
 										</div>
 										
 										<div class='content' >
 											
-											<h4>Programming</h4>
+											<h4>Web Development</h4>
 											
 											<p>
 												Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum.
@@ -295,17 +295,17 @@
 										
 									</div>
 								</div>
-								
+
 								<div class='col-md-4' >
 									<div class='service' >
 										
 										<div class='icon' >
-											<i class='ion-social-wordpress-outline' ></i>
+											<i class='ion-social-python' ></i>
 										</div>
 										
 										<div class='content' >
 											
-											<h4>WordPress</h4>
+											<h4>Python</h4>
 											
 											<p>
 												Ei constituam theophrastus per, sea dolorum disputationi in, vel menandri suavitate similique in. Vide assum conceptam eum.
